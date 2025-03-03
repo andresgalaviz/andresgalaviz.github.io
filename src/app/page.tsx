@@ -14,7 +14,7 @@ export default function Home() {
           Cloud Infrastructure and Robotics
         </p>
         <p className="text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          [In Progress] M.S in Computer Science at the University of Washington
+          [In Progress - Temporary leave] M.S in Computer Science at the University of Washington
         </p>
 
         {/* Link Section */}
