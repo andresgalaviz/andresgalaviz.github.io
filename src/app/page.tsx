@@ -16,6 +16,8 @@ export default function Home() {
         <p className="text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           [In Progress] M.S in Computer Science at the University of Washington
         </p>
+
+        {/* Link Section */}
         <p className="text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <a
             href="/Andres-Galaviz-Resume.pdf"
@@ -23,19 +25,24 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             Resume
-          </a> • <a
+          </a>
+          {' • '}
+          <a
             href="https://www.linkedin.com/in/andresgalaviz"
             target="_blank"
             rel="noopener noreferrer"
           >
             LinkedIn
-          </a> • <a
+          </a>
+          {' • '}
+          <a
             href="https://github.com/andresgalaviz"
             target="_blank"
             rel="noopener noreferrer"
           >
             GitHub
           </a>
+
         </p>
       </main>
     </div>
