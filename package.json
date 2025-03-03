@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "predeploy": "npm run build && cp jekyll_config.yml out/_config.yml",
+    "predeploy": "npm run build && cp jekyll_config.yml out/_config.yml && cp CNAME out/CNAME",
     "start": "next start",
     "lint": "next lint",
     "deploy": "gh-pages -d out"
