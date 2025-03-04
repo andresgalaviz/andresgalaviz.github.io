@@ -12,9 +12,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Andres Galaviz",
+  title: "Andres Galaviz - Personal Website",
   description:
-    "Ex-Microsoft Senior Eng Manager - Azure Cloud Infra & Robotics.",
+    "Ex-Microsoft Senior Eng Manager with experience in Azure Cloud Infra & Robotics.",
   icons: {
     icon: "/favicon.ico",
   },
@@ -22,7 +22,7 @@ export const metadata = {
     type: "profile",
     title: "Andres Galaviz - Personal Website",
     description:
-      "Ex-Microsoft Senior Eng Manager - Azure Cloud Infra & Robotics.",
+      "Ex-Microsoft Senior Eng Manager with experience in Azure Cloud Infra & Robotics.",
     url: "https://galaviz.io",
     images: [
       "https://galaviz.io/AndresGalaviz.jpg",
