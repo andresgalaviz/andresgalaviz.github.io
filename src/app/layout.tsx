@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Andres Galaviz - Personal Website",
   description:
-    "Ex-Microsoft Senior Eng Manager with experience in Azure Cloud Infra & Robotics.",
+    "Ex-Microsoft Senior Eng Manager with experience in Azure Cloud Infra and Robotics. Pursuing a professional master's in CS at the University of Washington.",
   icons: {
     icon: "/favicon.ico",
   },
@@ -22,7 +22,7 @@ export const metadata = {
     type: "profile",
     title: "Andres Galaviz - Personal Website",
     description:
-      "Ex-Microsoft Senior Eng Manager with experience in Azure Cloud Infra & Robotics.",
+      "Ex-Microsoft Senior Eng Manager with experience in Azure Cloud Infra and Robotics. Pursuing a professional master's in CS at the University of Washington.",
     url: "https://galaviz.io",
     images: [
       "https://galaviz.io/AndresGalaviz.jpg",
@@ -32,7 +32,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Andres Galaviz - Personal Website",
     description:
-      "Ex-Microsoft Senior Eng Manager in Cloud Infra & Robotics. Master's in CS at UW.",
+      "Ex-Microsoft Senior Eng Manager with experience in Azure Cloud Infra and Robotics. Pursuing a professional master's in CS at the University of Washington.",
     images: ["https://galaviz.io/AndresGalaviz.jpg"],
     site: "@AndresGalaviz",
   },
