@@ -11,6 +11,13 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+export const metadata = {
+  title: 'Andres Galaviz',
+  icons: {
+    icon: '/favicon.ico'
+  },
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
