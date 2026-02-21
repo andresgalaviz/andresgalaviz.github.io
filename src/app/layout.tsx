@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Andres Galaviz - Personal Website",
   description:
-    "Staff Software Engineer at Meta, working on Ad Serving Infrastructure. M.S. in CS from the University of Washington.",
+    "Staff Software Engineer at Meta working on Ad Serving Infrastructure. Previously Cloud Infrastructure and Robotics. M.S. in CS from the University of Washington.",
   icons: {
     icon: "/favicon.ico",
   },
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     type: "profile",
     title: "Andres Galaviz - Personal Website",
     description:
-      "Staff Software Engineer at Meta, working on Ad Serving Infrastructure. M.S. in CS from the University of Washington.",
+      "Staff Software Engineer at Meta working on Ad Serving Infrastructure. Previously Cloud Infrastructure and Robotics. M.S. in CS from the University of Washington.",
     url: "https://galaviz.io",
     images: [
       "https://galaviz.io/AndresGalaviz.jpg",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Andres Galaviz - Personal Website",
     description:
-      "Staff Software Engineer at Meta, working on Ad Serving Infrastructure. M.S. in CS from the University of Washington.",
+      "Staff Software Engineer at Meta working on Ad Serving Infrastructure. Previously Cloud Infrastructure and Robotics. M.S. in CS from the University of Washington.",
     images: ["https://galaviz.io/AndresGalaviz.jpg"],
     site: "@AndresGalaviz",
   },
