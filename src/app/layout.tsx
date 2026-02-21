@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -11,28 +12,26 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
-  title: "Andres Galaviz - Personal Website",
-  description:
-    "Ex-Microsoft Senior Eng Manager with experience in Azure Cloud Infra and Robotics. Pursuing a professional master's in CS at the University of Washington.",
+const description =
+  "Staff Software Engineer at Meta building Ad Serving Infrastructure. Previously 7+ years at Microsoft across Azure Cloud Infrastructure and Robotics. M.S. in CS from the University of Washington.";
+
+export const metadata: Metadata = {
+  title: "Andres Galaviz",
+  description,
   icons: {
     icon: "/favicon.ico",
   },
   openGraph: {
     type: "profile",
-    title: "Andres Galaviz - Personal Website",
-    description:
-      "Ex-Microsoft Senior Eng Manager with experience in Azure Cloud Infra and Robotics. Pursuing a professional master's in CS at the University of Washington.",
+    title: "Andres Galaviz",
+    description,
     url: "https://galaviz.io",
-    images: [
-      "https://galaviz.io/AndresGalaviz.jpg",
-    ],
+    images: ["https://galaviz.io/AndresGalaviz.jpg"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Andres Galaviz - Personal Website",
-    description:
-      "Ex-Microsoft Senior Eng Manager with experience in Azure Cloud Infra and Robotics. Pursuing a professional master's in CS at the University of Washington.",
+    title: "Andres Galaviz",
+    description,
     images: ["https://galaviz.io/AndresGalaviz.jpg"],
     site: "@AndresGalaviz",
   },
@@ -48,12 +47,16 @@ export default function RootLayout({
     "@type": "Person",
     name: "Andres Galaviz",
     url: "https://galaviz.io",
-    jobTitle: "ex-Senior Software Engineering Manager",
+    jobTitle: "Staff Software Engineer",
     worksFor: {
       "@type": "Organization",
-      name: "Microsoft",
+      name: "Meta",
     },
-    alumniOf: "University of Washington",
+    alumniOf: [
+      "University of Washington",
+      "National University of Singapore",
+      "Tecnológico de Monterrey",
+    ],
     sameAs: [
       "https://www.linkedin.com/in/andresgalaviz",
       "https://github.com/andresgalaviz",
