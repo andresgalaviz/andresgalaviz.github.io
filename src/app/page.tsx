@@ -138,7 +138,7 @@ export default function Home() {
                   University of Washington
                 </h3>
                 <p className="text-sm text-neutral-400">
-                  M.S. in Computer Science &middot; 3.98 GPA
+                  M.S. in Computer Science
                 </p>
               </div>
               <span className="text-xs text-neutral-500 font-[family-name:var(--font-geist-mono)]">
