@@ -1,45 +1,41 @@
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-neutral-900 text-neutral-100">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <h1 className="text-sm sm:text-base text-center sm:text-left font-[family-name:var(--font-geist-sans)]">
+    <div className="flex items-center justify-center min-h-screen bg-neutral-950 text-neutral-100 px-6 py-12">
+      <main className="max-w-md w-full space-y-6">
+        <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight font-[family-name:var(--font-geist-sans)]">
           Andres Galaviz
         </h1>
-        <p className="text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          Ex-Senior Software Engineering Manager at Microsoft
-        </p>
-        <p className="text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          Cloud Infrastructure and Robotics
-        </p>
-        <p className="text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          M.S. in CS at the University of Washington [PMP 2026 - Temporary leave]
-        </p>
-        <p className="text-sm text-center sm:text-left font-[family-name:var(--font-geist-sans)]">
+        <div className="space-y-2 font-[family-name:var(--font-geist-mono)] text-sm text-neutral-400">
+          <p>Staff Engineer at Meta</p>
+          <p>Cloud Infrastructure &middot; Robotics</p>
+          <p>M.S. in CS, University of Washington</p>
+        </div>
+        <div className="flex gap-4 text-sm font-[family-name:var(--font-geist-sans)]">
           <a
             href="/Andres-Galaviz-Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
+            className="text-neutral-300 hover:text-white transition-colors underline underline-offset-4 decoration-neutral-600 hover:decoration-neutral-300"
           >
             Resume
           </a>
-          {' • '}
           <a
             href="https://www.linkedin.com/in/andresgalaviz"
             target="_blank"
             rel="noopener noreferrer"
+            className="text-neutral-300 hover:text-white transition-colors underline underline-offset-4 decoration-neutral-600 hover:decoration-neutral-300"
           >
             LinkedIn
           </a>
-          {' • '}
           <a
             href="https://github.com/andresgalaviz"
             target="_blank"
             rel="noopener noreferrer"
+            className="text-neutral-300 hover:text-white transition-colors underline underline-offset-4 decoration-neutral-600 hover:decoration-neutral-300"
           >
             GitHub
           </a>
-
-        </p>
+        </div>
       </main>
     </div>
   );

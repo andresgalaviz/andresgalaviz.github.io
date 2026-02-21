@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -11,10 +12,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Andres Galaviz - Personal Website",
   description:
-    "Ex-Microsoft Senior Eng Manager with experience in Azure Cloud Infra and Robotics. Pursuing a professional master's in CS at the University of Washington.",
+    "Staff Engineer at Meta. Cloud Infrastructure and Robotics. M.S. in CS from the University of Washington.",
   icons: {
     icon: "/favicon.ico",
   },
@@ -22,7 +23,7 @@ export const metadata = {
     type: "profile",
     title: "Andres Galaviz - Personal Website",
     description:
-      "Ex-Microsoft Senior Eng Manager with experience in Azure Cloud Infra and Robotics. Pursuing a professional master's in CS at the University of Washington.",
+      "Staff Engineer at Meta. Cloud Infrastructure and Robotics. M.S. in CS from the University of Washington.",
     url: "https://galaviz.io",
     images: [
       "https://galaviz.io/AndresGalaviz.jpg",
@@ -32,7 +33,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Andres Galaviz - Personal Website",
     description:
-      "Ex-Microsoft Senior Eng Manager with experience in Azure Cloud Infra and Robotics. Pursuing a professional master's in CS at the University of Washington.",
+      "Staff Engineer at Meta. Cloud Infrastructure and Robotics. M.S. in CS from the University of Washington.",
     images: ["https://galaviz.io/AndresGalaviz.jpg"],
     site: "@AndresGalaviz",
   },
@@ -48,10 +49,10 @@ export default function RootLayout({
     "@type": "Person",
     name: "Andres Galaviz",
     url: "https://galaviz.io",
-    jobTitle: "ex-Senior Software Engineering Manager",
+    jobTitle: "Staff Engineer",
     worksFor: {
       "@type": "Organization",
-      name: "Microsoft",
+      name: "Meta",
     },
     alumniOf: "University of Washington",
     sameAs: [
