@@ -76,7 +76,7 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1">
                 <h3 className="text-neutral-100 font-medium">Meta</h3>
                 <span className="text-xs text-neutral-500 font-[family-name:var(--font-geist-mono)]">
-                  2024 &ndash; Present
+                  2025 &ndash; Present
                 </span>
               </div>
               <p className="mt-1 text-sm text-neutral-400">
