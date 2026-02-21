@@ -6,8 +6,8 @@ export default function Home() {
           Andres Galaviz
         </h1>
         <div className="space-y-2 font-[family-name:var(--font-geist-mono)] text-sm text-neutral-400">
-          <p>Staff Engineer at Meta</p>
-          <p>Cloud Infrastructure &middot; Robotics</p>
+          <p>Staff Software Engineer at Meta</p>
+          <p>Ad Serving Infrastructure</p>
           <p>M.S. in CS, University of Washington</p>
         </div>
         <div className="flex gap-4 text-sm font-[family-name:var(--font-geist-sans)]">
