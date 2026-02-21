@@ -57,11 +57,8 @@ export default function Home() {
           <h2 className="section-heading">About</h2>
           <p className="mt-4 text-neutral-300 leading-relaxed">
             Staff Software Engineer at Meta building Ad Serving Infrastructure.
-            Previously spent 7+ years at Microsoft, where I grew from intern to
-            Senior Engineering Manager across Azure Cloud Infrastructure and
-            Robotics. I also did research at MIT&apos;s Space Systems Lab, where my
-            work on satellite docking algorithms was validated aboard the
-            International Space Station.
+            Previously spent 8 years at Microsoft, working in Azure Compute and Azure Core
+            Robotics.
           </p>
         </section>
 
@@ -119,8 +116,9 @@ export default function Home() {
                 Research Assistant
               </p>
               <p className="mt-2 text-sm text-neutral-500 leading-relaxed">
-                Optimized SPHERES satellite docking algorithms, validated in a
-                joint experiment with NASA aboard the ISS
+                Optimized SPHERES satellite docking code, validated in a
+                joint experiment with NASA aboard the ISS. 
+                Developed the ZeroRobotics simulation environment for that year.
               </p>
             </div>
           </div>
