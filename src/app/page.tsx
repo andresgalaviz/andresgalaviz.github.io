@@ -138,11 +138,11 @@ export default function Home() {
                   University of Washington
                 </h3>
                 <p className="text-sm text-neutral-400">
-                  M.S. in Computer Science
+                  M.S. in Computer Science &middot; 3.98 GPA
                 </p>
               </div>
               <span className="text-xs text-neutral-500 font-[family-name:var(--font-geist-mono)]">
-                2023 &ndash; 2026
+                2023 &ndash; 2027
               </span>
             </div>
             <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1">
